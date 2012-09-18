@@ -3,3 +3,5 @@ pom.xml
 /lib/
 /classes/
 .lein-deps-sum
+src/hello_clojure/.#core.clj
+target
