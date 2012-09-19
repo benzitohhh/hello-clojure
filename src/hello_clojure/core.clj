@@ -8,12 +8,15 @@
 (defn factorial
   "calculate the factorial of a number"
   [x]
-  ((if (<= x 1)
+  (if (<= x 1)
      1
-     (* x (factorial (- x 1))))))
+     (* x (factorial (- x 1)))))
 
+; Symbols are used to name things.
+; To access a Symbol object itself, it must be quoted
+; Hence the "'" symbol below
 (require 'hello-clojure.core)
 
 (hello-clojure.core/foo 777)
 
-(factorial 3)
+(factorial 6)
