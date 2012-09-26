@@ -5,3 +5,6 @@ pom.xml
 .lein-deps-sum
 src/hello_clojure/.#core.clj
 target
+.project
+.classpath
+

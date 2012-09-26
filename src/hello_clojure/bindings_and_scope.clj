@@ -1,4 +1,4 @@
-(ns hello-clojure.deffo)
+(ns hello-clojure.bindings-and-scope)
 
 (def ^:dynamic v 1) ; v is a global binding
 
@@ -28,7 +28,7 @@
 (defn f4 []
   (def v 4)) ; changes the value of v in the global scope
 
-(require 'hello-clojure.deffo)
+(require 'hello-clojure.bindings-and-scope)
 
 (println)
 (println)

@@ -9,6 +9,4 @@
       (str word "ay")                   ; then part of if
       (str (subs word 1) first-letter "ay")))) ; else part of if
 
-(pig-latin "red")
-
 (pig-latin "orange")
