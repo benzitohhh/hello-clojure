@@ -7,4 +7,4 @@ src/hello_clojure/.#core.clj
 target
 .project
 .classpath
-
+.lein-failures

@@ -55,7 +55,7 @@
         (catch NumberFormatException e line))] ; use string value if not float
   (println
     (cond
-      (instance? String temperature) "invalid temperature"
+     (instance? String temperature) "invalid temperature"
       (<= temperature 0) "freezing"
       (>= temperature 100) "boiling"
       true "neither")))
